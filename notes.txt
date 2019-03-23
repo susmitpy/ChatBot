@@ -1,1 +1,9 @@
 curl -X GET url
+
+export FLASK_APP = server.py
+
+Development : Auto refresh:  export FLASK_DEBUG = 1
+
+run flask app:  flask run
+
+
