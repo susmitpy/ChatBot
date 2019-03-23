@@ -6,4 +6,25 @@ Development : Auto refresh:  export FLASK_DEBUG = 1
 
 run flask app:  flask run
 
+curl -X POST localhost:5000
 
+
+Create a python object, jsonify it, send it to the client where it will extract the values using the keys.
+
+curl -X POST localhost:5000 -d "token=Hello"    POST parameters
+
+ngrok is basically a proxy whose one end is connected to public ip and one is connected to localhost on the specified port
+
+ngrok http port
+
+API:   http://numbersapi.com/#42
+
+User connects to dialogflow
+
+Dialogflow to webHook and backwards
+
+Flask server endpoint has to be mentioned to dialogflow so it can interact
+
+And user connects to a service which is using dialogflow
+
+Fulfillment: Response from server to dialogflow
